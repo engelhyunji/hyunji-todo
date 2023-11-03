@@ -27,7 +27,7 @@ import styled from 'styled-components';
                 isDone: false,
             };
             console.log(newTodo);
-            dispatch(addTodo(newTodo)); // 인자로 받는거는 액션타입이 있는 액션객체를 받는다.
+            dispatch(addTodo(newTodo)); 
             setTitle('');
             setBody('');
         };
